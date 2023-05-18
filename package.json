@@ -1,0 +1,36 @@
+{
+  "name": "ip-finder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.66",
+    "@iconify/vue": "^4.1.1",
+    "@studiometa/vue-mapbox-gl": "^2.1.1",
+    "axios": "^1.4.0",
+    "daisyui": "^2.51.6",
+    "mapbox-gl": "^2.14.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vueuse/core": "^10.1.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.0",
+    "unplugin-icons": "^0.16.1",
+    "unplugin-vue-components": "^0.24.1",
+    "unplugin-vue-router": "^0.6.4",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  }
+}
