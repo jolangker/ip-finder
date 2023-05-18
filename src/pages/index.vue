@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-ignore
 import { MapboxMap, MapboxMarker } from "@studiometa/vue-mapbox-gl";
 import { z } from "zod";
 
