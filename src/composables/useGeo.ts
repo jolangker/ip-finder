@@ -32,7 +32,7 @@ export function useGeo() {
   const lngLat = computed<number[]>(() => {
     if (geoLocation.value.loc) {
       const locArray = geoLocation.value.loc.split(",");
-      const convertLoc = locArray.map((loc) => parseInt(loc));
+      const convertLoc = locArray.map((loc) => parseFloat(loc));
       const lngLat = convertLoc.reverse();
       return lngLat;
     } else return [0, 0];
